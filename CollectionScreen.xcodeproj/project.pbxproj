@@ -14,6 +14,7 @@
 		3A6A0BA82D70E9CC001275E9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3A6A0BA72D70E9CC001275E9 /* Base */; };
 		3A6A0BB02D70EACD001275E9 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6A0BAF2D70EACD001275E9 /* ItemCell.swift */; };
 		3A6A0BB22D70FB22001275E9 /* CollectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6A0BB12D70FB22001275E9 /* CollectionModel.swift */; };
+		3AF9DDF82D724B5700ABDB60 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF9DDF72D724B5700ABDB60 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3A6A0BA92D70E9CC001275E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A6A0BAF2D70EACD001275E9 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		3A6A0BB12D70FB22001275E9 /* CollectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionModel.swift; sourceTree = "<group>"; };
+		3AF9DDF72D724B5700ABDB60 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				3A6A0B9D2D70E9CB001275E9 /* SceneDelegate.swift */,
 				3A6A0B9F2D70E9CB001275E9 /* ViewController.swift */,
 				3A6A0BB12D70FB22001275E9 /* CollectionModel.swift */,
+				3AF9DDF72D724B5700ABDB60 /* DetailsViewController.swift */,
 				3A6A0BAF2D70EACD001275E9 /* ItemCell.swift */,
 				3A6A0BA42D70E9CC001275E9 /* Assets.xcassets */,
 				3A6A0BA62D70E9CC001275E9 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				3A6A0B9C2D70E9CB001275E9 /* AppDelegate.swift in Sources */,
 				3A6A0B9E2D70E9CB001275E9 /* SceneDelegate.swift in Sources */,
 				3A6A0BB22D70FB22001275E9 /* CollectionModel.swift in Sources */,
+				3AF9DDF82D724B5700ABDB60 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

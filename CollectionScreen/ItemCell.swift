@@ -150,10 +150,13 @@ class ItemCell: UICollectionViewCell {
     @objc func showMoreDetails() {
         guard let collectionView = superview as? UICollectionView,
               let _ = collectionView.indexPath(for: self),
-              let _ = collectionView.delegate as? UIViewController else {
+              let viewController = collectionView.delegate as? UIViewController else {
             return
         }
         
+        let detailsVC = DetailsViewController(userName: textLabel.text ?? "", image: cellImage.image, fullText: mainTextLabel.text)
+        viewController.navigationController?.pushViewController(detailsVC, animated: true)
+    
     }
 }
 
